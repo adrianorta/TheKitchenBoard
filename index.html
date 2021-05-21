@@ -1,199 +1,201 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./styles.css">
-        
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/styles.css">    
     </head>
     <body data-new-gr-c-s-check-loaded="14.1007.0">
+      <div class="hero">
         <header>
-            <nav class="navbar navbar-expand navbar-dark mb-5 bg-light fixed-top">
+            <nav class="navbar navbar-expand navbar-dark mb-5 bg-light fixed-top bg-transparent">
                 <div class="container-fluid " >
-                  <img class="navbar-brand py-2" height="200" id="navbar-brand" src="./brand-lg.svg"/>
+                  <img class="navbar-brand py-2" height="200" id="navbar-brand" src="./svgs/brand-lg.svg"/>
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="https://www.instagram.com/thekitchenboard"><img class="socialnavlogo" height="45px" src="./Instagram-Logo.wine.svg"/></a>
+                      <a class="nav-link" href="https://www.instagram.com/thekitchenboard"><img class="socialnavlogo" height="45px" src="./svgs/Instagram-Logo.wine.svg"/></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-dark zelle-btn" href="#">
-                        <img data-bs-toggle="modal" data-bs-target="#myModal" class="socialnavlogo" height="45px" src="./Zelle_(payment_service)-Logo.wine.svg"/>
+                        <img data-bs-toggle="modal" data-bs-target="#myModal" class="socialnavlogo" height="45px" src="./svgs/Zelle_(payment_service)-Logo.wine.svg"/>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="https://cash.app/$thekitchenboard"><img class="socialnavlogo" height="45px" src="./Cash_App-Logo.wine.svg"/></a>
+                      <a class="nav-link" href="https://cash.app/$thekitchenboard"><img class="socialnavlogo" height="45px" src="./svgs/Cash_App-Logo.wine.svg"/></a>
                     </li>
                   </ul>
                 </div>
               </nav>
-              <div class="py-5" style="background-image: url(./goldFrame.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                <div class="py-5 text-center" >
-                  <h2 class="display-5 fw-bold text-white text-shadow">Have An Event? </h2>
-                  <h2 class="display-5 fw-bold order-now">ORDER NOW!</h2>
-                  <a href="https://www.instagram.com/thekitchenboard" class="btn button-gold bg-gold"><img class="socialnavlogo" height="30px" src="./Instagram-Logo.wine.svg"/> @thekitchenboard</a>
-                </div>
-              </div>
         </header>
+        <div class="pb-5">
+          <div class="pb-5 text-center" >
+            <h2 class="display-5 text-dark text-cinzel text-shadow">The Kitchen Board</h2>
+            <h2 class="display-5 text-white text-script text-shadow mb-4">Brie Happy</h2>
+            <a href="https://www.instagram.com/thekitchenboard" class="btn button-gold bg-gold">Book an Order</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-dark text-center container-fluid pb-3 px-5">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+      </div>
         
-        <div class="mt-5 py-5 bg-content d-flex justify-content-around gallery" >
-          <figure class="snip1295">
-            <img  src="./board1-sm.jpeg"/></a>
-            <div class="border-none gallery-one">
-              <div></div>
-            </div>
-            <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-              <div></div>
-            </div>
-          </figure>
-          <figure class="snip1295">
-            <img src="./board2-sm.jpeg"/>
-            <div class="border-none gallery-one">
-              <div></div>
-            </div>
-            <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-              <div></div>
-            </div>
-          </figure>
-          <figure class="snip1295">
-            <img src="./board3-sm.jpeg"/>
-            <div class="border-none gallery-one">
-              <div></div>
-            </div>
-            <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-              <div></div>
-            </div>
-          </figure>
-        </div>
+      <div class="py-5 d-flex justify-content-around gallery bg-content" >
+        <figure class="snip1295">
+          <img  src="./images/board1-sm.jpeg"/></a>
+          <div class="border-none gallery-one">
+            <div></div>
+          </div>
+          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
+            <div></div>
+          </div>
+        </figure>
+        <figure class="snip1295">
+          <img src="./images/board2-sm.jpeg"/>
+          <div class="border-none gallery-one">
+            <div></div>
+          </div>
+          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
+            <div></div>
+          </div>
+        </figure>
+        <figure class="snip1295">
+          <img src="./images/board3-sm.jpeg"/>
+          <div class="border-none gallery-one">
+            <div></div>
+          </div>
+          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
+            <div></div>
+          </div>
+        </figure>
+      </div>
 
-        <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalTitle" aria-hidden="true" style="backdrop-filter: blur(2px);">
-          <div class="modal-dialog modal-dialog-centered gallery-modal-dialog" >
-            <div class="modal-content gallery-modal-content" style="box-shadow: 0px 10px 7px rgba(0, 0, 0 , 0.75);">
-              <div class="gallery-modal-body modal-body">
-                <img id="gallery-modal-img" src="#"/>
-              </div>
+      <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered gallery-modal-dialog" >
+          <div class="modal-content gallery-modal-content">
+            <div class="gallery-modal-body modal-body">
+              <img id="gallery-modal-img" src="#"/>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Do I get to keep the board?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>YES!</strong> All our boards are for you to keep, as we always have a variety of beautiful boards to choose from.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                What is your cancellation policy?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                In order for your deposit to be refunded you must cancel<strong> within 72 hours</strong> of the event date. Deposits will not be refunded for orders cancelled within 48 hours of the event.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How much time in advance do I need to place an order?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                You need <strong>3 - 5 days</strong> prior to the even to place your order, as we like to make sure all our products are fresh! However, don't hesitate to contact us for any rush order you may need.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How do I place an order?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>Send us a direct message on Instagram</strong> to place your order. Make sure to let us know of any food allergies.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How do I pay for an order?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                We accept <strong>CashApp</strong> $thekitchenboard or <strong>Zelle</strong> <span id="copyTarget">(786)444-9416</span>
-              </div>
+      <div class="accordion my-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Do I get to keep the board?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>YES!</strong> All our boards are for you to keep, as we always have a variety of beautiful boards to choose from.
             </div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What is your cancellation policy?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              In order for your deposit to be refunded you must cancel<strong> within 72 hours</strong> of the event date. Deposits will not be refunded for orders cancelled within 48 hours of the event.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How much time in advance do I need to place an order?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              You need <strong>3 - 5 days</strong> prior to the even to place your order, as we like to make sure all our products are fresh! However, don't hesitate to contact us for any rush order you may need.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How do I place an order?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Send us a direct message on Instagram</strong> to place your order. Make sure to let us know of any food allergies.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              How do I pay for an order?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              We accept <strong>CashApp</strong> $thekitchenboard or <strong>Zelle</strong> <span id="copyTarget">(786)444-9416</span>
+            </div>
+          </div>
+        </div>
+      </div>
         
-        <div id="carouselExampleInterval" class="carousel slide pb-3" data-bs-ride="carousel">
-          <div class="carousel-inner" >
-            <div class="carousel-item active" data-bs-interval="10000" >
-              <div class="img-box"><img src="./User1.png" alt=""></div>
-              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Rodney Johnson</b>, Software Engineer</p>
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <div class="img-box"><img src="./User2.png" alt=""></div>
-              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-            </div>
-            <div class="carousel-item" data-bs-interval="10000" >
-              <div class="img-box"><img src="./User3.png" alt=""></div>
-              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Maria Santos</b>, Architect</p>
-            </div>
+      <div id="carouselExampleInterval" class="carousel slide pb-3" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="10000" >
+            <div class="img-box"><img src="./images/User1.png" alt=""></div>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            <p class="overview"><b>Rodney Johnson</b>, Software Engineer</p>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-compact-left" style="color: black; font-size: 2rem;"></i></span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi bi-chevron-compact-right" style="color: black; font-size: 2rem;"></i></span>
-          </a>
-        </div> 
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="img-box"><img src="./images/User2.png" alt=""></div>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000" >
+            <div class="img-box"><img src="./images/User3.png" alt=""></div>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            <p class="overview"><b>Maria Santos</b>, Architect</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-compact-left font-2rem text-dark"></i></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi bi-chevron-compact-right font-2rem text-dark"></i></span>
+        </a>
+      </div> 
 
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true" style="backdrop-filter: blur(2px);">
-          <div class="zelle-modal-dialog modal-dialog modal-dialog-centered" >
-            <div class="zelle-modal-content modal-content p-5" style="box-shadow: 0px 10px 7px rgba(0, 0, 0 , 0.75); -webkit-box-reflect: below 0 linear-gradient(transparent 70%, rgba(0,0,0,0.4));">
-              <div class="zelle-modal-header modal-header">
-                <h5 class="modal-title" style="font-size: 2rem;" id="myModalTitle">Phone Number <span class="fw-bold">Copied!</span></h5>
-                <p class="text-center">Use this phone number when purchasing with <img data-bs-toggle="modal" class="socialnavlogo" height="45px" src="./Zelle_(payment_service)-Logo.wine.svg"/></p>
-              </div>
-              <div class="zelle-modal-body modal-body"></div>
-              <div class="zelle-modal-footer modal-footer" >
-                <button type="button" class="fw-bold btn" data-bs-dismiss="modal">Got It</button>
-              </div>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="zelle-modal-dialog modal-dialog modal-dialog-centered" >
+          <div class="zelle-modal-content modal-content p-5">
+            <div class="zelle-modal-header modal-header">
+              <h5 class="modal-title font-2rem" id="myModalTitle">Phone Number <span class="fw-bold">Copied!</span></h5>
+              <p class="text-center">Use this phone number when purchasing with <img data-bs-toggle="modal" class="socialnavlogo" height="45px" src="./svgs/Zelle_(payment_service)-Logo.wine.svg"/></p>
+            </div>
+            <div class="zelle-modal-body modal-body"></div>
+            <div class="zelle-modal-footer modal-footer" >
+              <button type="button" class="fw-bold btn" data-bs-dismiss="modal">Got It</button>
             </div>
           </div>
         </div>
+      </div>
 
-        <footer class="footer mt-auto py-3 bg-content text-light">
-          <div class="container">
-            <div class="d-flex align-items-center">
-              <div class="me-auto p-2"><span>Stephanie Bello 2021&copy;</span></div>
-              <a href="https://www.instagram.com/thekitchenboard"><img class="socialnavlogo" height="45px" src="./Instagram-Logo.wine - White.svg"/></a>
-              <img data-bs-toggle="modal" data-bs-target="#myModal" class="socialnavlogo zelle-btn" id="zelle-footer" height="45px" src="./Zelle_(payment_service)-Logo.wine - White.svg"/>
-              <a href="https://cash.app/$thekitchenboard"><img class="socialnavlogo" height="45px" src="./Cash_App-Logo.wine - White.svg"/></a>           
-            </div>
+      <footer class="footer mt-auto py-3 bg-content text-light">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center">
+            <div class="me-auto p-2"><span>Stephanie Bello 2021&copy;</span></div>
+            <a href="https://www.instagram.com/thekitchenboard"><img class="socialnavlogo" height="45px" src="./svgs/Instagram-Logo.wine - White.svg"/></a>
+            <img data-bs-toggle="modal" data-bs-target="#myModal" class="socialnavlogo zelle-btn" id="zelle-footer" height="45px" src="./svgs/Zelle_(payment_service)-Logo.wine - White.svg"/>
+            <a href="https://cash.app/$thekitchenboard"><img class="socialnavlogo" height="45px" src="./svgs/Cash_App-Logo.wine - White.svg"/></a>           
           </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-        <script src="./scripts.js"></script>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="./js/scripts.js"></script>
     </body>
 </html>
