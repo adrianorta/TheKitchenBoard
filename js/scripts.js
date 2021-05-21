@@ -1,19 +1,8 @@
 $( document ).ready(function() {
-
+    scrollFunction(document.getElementById("navbar-brand"));
     addPhoneNumberCopyListenerToZelleElements("zelle-btn");
     addClickListenerToGalleryElements("gallery-two");
-
-    var quadimages = document.querySelectorAll("#quad figure");
-    for(i=0; i<quadimages.length; i++) {
-        quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
-    }
-
     window.onscroll = function() {scrollFunction(document.getElementById("navbar-brand"))};
-
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
 });
 
 function scrollFunction(elem) {
