@@ -428,6 +428,9 @@ footer {
   background-color: var(--white);
   padding-top: 20px;
 }
+.carousel-control-next-icon img, .carousel-control-prev-icon img {
+  height: 30px;
+}
 
 /* Modal Section */
 .modal {
