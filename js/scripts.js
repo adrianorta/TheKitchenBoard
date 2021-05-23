@@ -3,6 +3,7 @@ $( document ).ready(function() {
     addPhoneNumberCopyListenerToZelleElements("zelle-btn");
     addClickListenerToGalleryElements("gallery-two");
     window.onscroll = function() {scrollFunction(document.getElementById("navbar-brand"))};
+    $(".newcarousel-container").height($(".newcarousel-img").height());
 });
 
 function scrollFunction(elem) {
@@ -32,6 +33,8 @@ function addClickListenerToGalleryElements(galleryElementClassName){
     for (let element of galleryElements) {
         element.addEventListener("click", function() {
             $("#gallery-modal-img").attr("src", $(this).first().parent().find('img')[0].src.replace("-sm", "-lg"));
+            $(".gallery-two").removeAttr("data-bs-toggle");
+            $(this).attr("data-bs-toggle", "modal");
         }, false);
     }
 }
