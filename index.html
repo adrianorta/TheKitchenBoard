@@ -38,37 +38,44 @@
       <div class="text-dark text-center container-fluid pb-3 px-5">
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
       </div>
-        
-      <div class="py-5 d-flex justify-content-around gallery bg-content" >
-        <figure class="snip1295">
-          <img  src="./images/board1-sm.jpeg"/></a>
-          <div class="border-none gallery-one">
-            <div></div>
-          </div>
-          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-            <div></div>
-          </div>
-        </figure>
-        <figure class="snip1295">
-          <img src="./images/board2-sm.jpeg"/>
-          <div class="border-none gallery-one">
-            <div></div>
-          </div>
-          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-            <div></div>
-          </div>
-        </figure>
-        <figure class="snip1295">
-          <img src="./images/board3-sm.jpeg"/>
-          <div class="border-none gallery-one">
-            <div></div>
-          </div>
-          <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
-            <div></div>
-          </div>
-        </figure>
-      </div>
 
+      <div class="newcarousel-body py-5 d-flex  bg-content">
+        <div class="newcarousel-container">
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+          <div class="newcarousel-cards gallery">
+            <label class="newcarousel-card snip1295" for="item-1" id="song-1">
+              <img class="newcarousel-img" src="./images/board1-sm.jpeg">
+              <div class="border-none gallery-one">
+                <div></div>
+              </div>
+              <div class="border-none gallery-two" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <div></div>
+              </div>
+            </label>
+            <label class="newcarousel-card snip1295" for="item-2" id="song-2">
+              <img class="newcarousel-img" src="./images/board2-sm.jpeg">
+              <div class="border-none gallery-one">
+                <div></div>
+              </div>
+              <div class="border-none gallery-two"  data-bs-target="#galleryModal">
+                <div></div>
+              </div>
+            </label>
+            <label class="newcarousel-card snip1295" for="item-3" id="song-3">
+              <img class="newcarousel-img" src="./images/board3-sm.jpeg">
+              <div class="border-none gallery-one">
+                <div></div>
+              </div>
+              <div class="border-none gallery-two" data-bs-target="#galleryModal">
+                <div></div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      
       <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered gallery-modal-dialog" >
           <div class="modal-content gallery-modal-content">
@@ -182,7 +189,7 @@
           </div>
         </div>
       </div>
-
+      
       <footer class="footer mt-auto py-3 bg-content text-light">
         <div class="container-fluid">
           <div class="d-flex align-items-center">
